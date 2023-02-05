@@ -7,10 +7,11 @@ The ball will bounce in a different direction every time it collides with a wall
 When the player loses, their points are saved into a "highscores.txt" file and the game will restart.
 The "highscores.txt" file is saved in the same folder as the game's Python file.
 
-## Important!
+## Getting Started
 
 The game was made using Python's Pygame module.
 The module must be installed before starting the game to ensure that the game works as intended.
+With Pip the module can be installed with the command "pip install pygame"
 
 The background music was made by Steven O'Brien and can be found on SoundCloud: https://soundcloud.com/stevenobrien/waves
 "The Waves" is licensed under Creative Commons.
