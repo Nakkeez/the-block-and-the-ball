@@ -111,12 +111,10 @@ def main():
     ball_speed_y = 3
     points = 0
 
-    run = True
-    clock = pygame.time.Clock()
-
     # Define the main loop which controls the game
-    while run:
-        clock.tick(fps)
+    while True:
+        # Set the framerate of the game so that it does not exceed the amount of the fps variable
+        pygame.time.Clock.tick(fps)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
