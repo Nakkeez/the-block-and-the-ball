@@ -4,8 +4,14 @@ A simple game where the player controls a blue block and tries to prevent a red 
 The player controls the block with the left and right arrow keys.
 The player gets a point from every successful hit against the ball but at the time the ball's speed will increase.
 The ball will bounce in a different direction every time it collides with a wall or the block.
-When the player loses, their points are saved into a "highscores.txt" file and the game will restart.
+When the player loses, their points are saved into a "scores.txt" file and the game will restart.
 The "highscores.txt" file is saved in the same folder as the game's Python file.
+
+<img src="/images/gameplay.png"  width="450" height="auto">
+
+<img src="/images/game-over.png"  width="450" height="auto">
+
+<img src="/images/scores-file.png"  width="450" height="auto">
 
 ## Getting Started
 
