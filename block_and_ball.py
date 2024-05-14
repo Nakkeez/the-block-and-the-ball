@@ -16,10 +16,10 @@ import datetime
 pygame.font.init()
 pygame.mixer.init()
 
-window_width = 500
-window_height = 560
+window_width = 800
+window_height = 600
 window = pygame.display.set_mode((window_width, window_height))
-pygame.display.set_caption("The Great Block & The Sneaky Ball @Markus Halminen")
+pygame.display.set_caption("The Great Block & The Sneaky Ball")
 
 # Initialize the path to the current folder to find needed files
 cd_dir = os.path.dirname(__file__)
